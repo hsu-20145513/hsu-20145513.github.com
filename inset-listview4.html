@@ -3,10 +3,10 @@
 <head>
 	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
-	<title>jQuery Mobile</title>
-	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
-	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<title>201455113 정효종</title>
+	<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
+	<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 </head>
 <body>
 	
@@ -18,7 +18,7 @@
 				</div>
 	<div data-role="content" >		
 		<fieldset data-role="controlgroup" data-type="horizontal" >	
-			<legend>성별</legend>	
+			<h1>성별</h1>
 			<input type="radio" name="semester" id="semester1" value="1" checked="checked"/>	
 			<label for="semester1">남성</label>
 			<input type="radio" name="semester" id="semester2" value="2"/>
@@ -26,7 +26,7 @@
 			
 		</fieldset>			
 		<fieldset data-role="controlgroup">
-			<legend>일주일에 커피를 얼마나 드시나요?</legend>
+			<h1>일주일에 커피를 얼마나 드시나요?</h1>
 			<input type="radio" name="syear" id="syear1" value="1" />
 			<label for="syear1">하루에 두 잔 이상</label>
 			<input type="radio" name="syear" id="syear2" value="2"/>
@@ -39,13 +39,17 @@
 		
 		<div data-role="fieldcontain">
 			<h1>정보가 얼마나 유용하셨나요 ?</h1>
-			
 			<input type="range" name="score" id="score1" value="50" min="0" max="100"/>
 		</div>
+		
+		<button data-icon="check" data-inline="true">제출</button>
+		
+	</div>
+	
 	<div data-role="footer" data-position="fixed">
 		<h1>감사합니다.</h1>
 	</div>
-</div>
+
 
 
 </body>
